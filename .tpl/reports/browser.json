@@ -1,0 +1,206 @@
+{
+  "id": "recueil",
+  "host": false,
+  "checkedAt": "2026-10-21T02:43:43.513Z",
+  "http": [
+    {
+      "locale": "zh",
+      "slug": "",
+      "status": 200
+    },
+    {
+      "locale": "zh",
+      "slug": "privacy-policy",
+      "status": 200
+    },
+    {
+      "locale": "zh",
+      "slug": "404",
+      "status": 404,
+      "expectedStatus": 404
+    },
+    {
+      "locale": "en",
+      "slug": "",
+      "status": 200
+    },
+    {
+      "locale": "en",
+      "slug": "privacy-policy",
+      "status": 200
+    },
+    {
+      "locale": "en",
+      "slug": "404",
+      "status": 200
+    }
+  ],
+  "rows": [
+    {
+      "slug": "",
+      "locale": "zh",
+      "width": 1440,
+      "h1": 1,
+      "overflow": false,
+      "broken": [],
+      "market": false,
+      "filing": false,
+      "hostLogo": false,
+      "fonts": "loaded"
+    },
+    {
+      "slug": "privacy-policy",
+      "locale": "zh",
+      "width": 1440,
+      "h1": 1,
+      "overflow": false,
+      "broken": [],
+      "market": false,
+      "filing": false,
+      "hostLogo": false,
+      "fonts": "loaded"
+    },
+    {
+      "slug": "404",
+      "locale": "zh",
+      "width": 1440,
+      "h1": 1,
+      "overflow": false,
+      "broken": [],
+      "market": false,
+      "filing": false,
+      "hostLogo": false,
+      "fonts": "loaded"
+    },
+    {
+      "slug": "",
+      "locale": "en",
+      "width": 1440,
+      "h1": 1,
+      "overflow": false,
+      "broken": [],
+      "market": false,
+      "filing": false,
+      "hostLogo": false,
+      "fonts": "loaded"
+    },
+    {
+      "slug": "privacy-policy",
+      "locale": "en",
+      "width": 1440,
+      "h1": 1,
+      "overflow": false,
+      "broken": [],
+      "market": false,
+      "filing": false,
+      "hostLogo": false,
+      "fonts": "loaded"
+    },
+    {
+      "slug": "404",
+      "locale": "en",
+      "width": 1440,
+      "h1": 1,
+      "overflow": false,
+      "broken": [],
+      "market": false,
+      "filing": false,
+      "hostLogo": false,
+      "fonts": "loaded"
+    },
+    {
+      "slug": "",
+      "locale": "zh",
+      "width": 390,
+      "h1": 1,
+      "overflow": false,
+      "broken": [],
+      "market": false,
+      "filing": false,
+      "hostLogo": false,
+      "fonts": "loaded"
+    },
+    {
+      "slug": "privacy-policy",
+      "locale": "zh",
+      "width": 390,
+      "h1": 1,
+      "overflow": false,
+      "broken": [],
+      "market": false,
+      "filing": false,
+      "hostLogo": false,
+      "fonts": "loaded"
+    },
+    {
+      "slug": "404",
+      "locale": "zh",
+      "width": 390,
+      "h1": 1,
+      "overflow": false,
+      "broken": [],
+      "market": false,
+      "filing": false,
+      "hostLogo": false,
+      "fonts": "loaded"
+    },
+    {
+      "slug": "",
+      "locale": "en",
+      "width": 390,
+      "h1": 1,
+      "overflow": false,
+      "broken": [],
+      "market": false,
+      "filing": false,
+      "hostLogo": false,
+      "fonts": "loaded"
+    },
+    {
+      "slug": "privacy-policy",
+      "locale": "en",
+      "width": 390,
+      "h1": 1,
+      "overflow": false,
+      "broken": [],
+      "market": false,
+      "filing": false,
+      "hostLogo": false,
+      "fonts": "loaded"
+    },
+    {
+      "slug": "404",
+      "locale": "en",
+      "width": 390,
+      "h1": 1,
+      "overflow": false,
+      "broken": [],
+      "market": false,
+      "filing": false,
+      "hostLogo": false,
+      "fonts": "loaded"
+    }
+  ],
+  "interactions": [
+    {
+      "name": "移动菜单可展开关闭",
+      "passed": true,
+      "value": true
+    },
+    {
+      "name": "语言切换可打开英文首页",
+      "passed": true,
+      "value": true
+    }
+  ],
+  "errors": [],
+  "failures": [],
+  "rechecks": [
+    {
+      "name": "独立 /404 保留路径返回404且渲染模板演示页",
+      "status": 404,
+      "rendered": true,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "$schema": "./schemas/template.schema.json",
+  "format": "git-template",
+  "formatVersion": "0.2.0",
+  "version": "1.0.0",
+  "id": "recueil",
+  "gitUrl": "https://github.com/weelume/recueil-template",
+  "name": "Recueil · 香氛订阅",
+  "localizedNames": {
+    "en": "Recueil · Fragrance atelier"
+  },
+  "sceneId": "corporate-site",
+  "listed": false,
+  "tags": [
+    "香氛订阅",
+    "蓝紫微光",
+    "玻璃卡片",
+    "双语整站",
+    "PC / iPad / H5"
+  ],
+  "summary": "参考 Recueil 的蓝紫色香氛视觉与长页叙事，覆盖完整首页、隐私说明和 404 页面。包含香氛库、六种原料切换、故事、三种订阅方案、FAQ 及本地表单演示，统一Recueil品牌与中英文排版。源站素材仅供内部预览，商用前需授权或替换。",
+  "accentColor": "#bae6fd",
+  "cover": "assets/desktop-home.webp",
+  "screenshots": [
+    {
+      "src": "assets/desktop-home.webp",
+      "alt": "desktop 首页真实页面截图",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/desktop-library.webp",
+      "alt": "desktop 香氛库真实页面截图",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/desktop-stories.webp",
+      "alt": "desktop 香气故事真实页面截图",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/desktop-contact.webp",
+      "alt": "desktop 联系与订阅真实页面截图",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-home.webp",
+      "alt": "tablet 首页真实页面截图",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-library.webp",
+      "alt": "tablet 香氛库真实页面截图",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-stories.webp",
+      "alt": "tablet 香气故事真实页面截图",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-contact.webp",
+      "alt": "tablet 联系与订阅真实页面截图",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-home.webp",
+      "alt": "mobile 首页真实页面截图",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-library.webp",
+      "alt": "mobile 香氛库真实页面截图",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-stories.webp",
+      "alt": "mobile 香气故事真实页面截图",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-contact.webp",
+      "alt": "mobile 联系与订阅真实页面截图",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": ""
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "site",
+      "name": "香氛订阅官网",
+      "platform": "pc",
+      "locales": [
+        "zh",
+        "en"
+      ],
+      "pages": [
+        {
+          "slug": "",
+          "title": "首页",
+          "localizedTitles": {
+            "en": "Home"
+          }
+        },
+        {
+          "slug": "privacy-policy",
+          "title": "隐私说明",
+          "localizedTitles": {
+            "en": "Privacy notice"
+          }
+        },
+        {
+          "slug": "404",
+          "title": "404 页面",
+          "localizedTitles": {
+            "en": "Page not found"
+          }
+        }
+      ]
+    }
+  ],
+  "license": {
+    "type": "restricted",
+    "file": "docs/LICENSE.md",
+    "summary": "参考素材权利归原作者，商业使用及再分发授权待确认。",
+    "redistributionAllowed": false
+  }
+}
