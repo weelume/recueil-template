@@ -249,8 +249,8 @@
   ],
   "fonts": {
     "families": [
-      "Weelume MiSans 400/700",
-      "Weelume Poppins 400/600/700"
+      "Recueil MiSans 400/700",
+      "Recueil Poppins 400/600/700"
     ],
     "source": "/styles/brand-fonts.css"
   },
